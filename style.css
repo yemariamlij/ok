@@ -1,0 +1,27 @@
+
+table, th, td {
+  border: 1px solid:0cap;
+  //border-collapse: collapse;
+  border-radius: 10px;
+  border-style:dotted;
+  border-color:blue;
+  //border-spacing:5px;
+}
+td{
+  padding:20px;
+  text-size-adjust: 10px;
+}
+th{
+ background-color: red;
+  padding:10px;
+}
+tr:nth-child(odd) {
+ // background-color: blue;
+}
+tr:hover {background-color: greenyellow;}
+body {
+    background-color: aqua;
+}
+li {
+    display: flex;
+}
